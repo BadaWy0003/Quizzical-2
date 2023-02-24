@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: #F5F7FB;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.start-button{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  border: none;
+  width: 193px;
+  height: 52px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.choices-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1.3em;
+  flex-wrap: wrap;
+  max-width: fit-content;
+}
+.btn-choice {
+  background-color: #4D5B9E;
+  color: red;
+  border: 0.8px solid #4D5B9E;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: .9rem;
+  text-align: center;
+  padding: .25em .6em;
+  min-width: 66px;
+  cursor: pointer;
+}
+
+.btn-choice:active,
+.btn-choice:focus {
+  outline: 0;
+}
+
+.checked-option{
+  background-color: "#D6DBF5";
+  color: "#293264";
+  cursor: pointer;
+}
